@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -Iinclude
+CXXFLAGS = -Wall -Wextra -Wpedantic -Wshadow -Iinclude
 
 SRCDIR = src
 BINDIR = bin
