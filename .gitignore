@@ -1,0 +1,78 @@
+# prerequisites
+*.d
+
+# compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# ignore build directories
+bin/
+obj/
+build/
+
+# precompiled headers
+*.gch
+*.pch
+
+# compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# compiled static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# executables
+*.exe
+*.out
+*.app
+
+# Haskell
+dist
+dist-*
+cabal-dev
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+# files produced by popular IDEs and text editors
+*.swp
+*~
+.vscode/
+.idea/
+
+# actual Advent of Code inputs
+*input.txt
+
+# system files
+.DS_Store
+Thumbs.db
+
+# other common files
+*.log
+*.tmp
